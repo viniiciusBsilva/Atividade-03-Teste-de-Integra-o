@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class usuario {
+public class Usuario {
 
     @Id @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer ID;
@@ -20,7 +20,7 @@ public class usuario {
     private String email;
     private LocalDate dt_Nascimento;
 
-    public usuario(){}
+    public Usuario(){}
 
     public Integer getID() {
         return ID;
@@ -82,7 +82,7 @@ public class usuario {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        usuario usuario = (usuario) o;
+        Usuario usuario = (Usuario) o;
         return Objects.equals(ID, usuario.ID);
     }
 

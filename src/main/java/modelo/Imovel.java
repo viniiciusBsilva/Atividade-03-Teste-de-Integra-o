@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import java.util.Objects;
 
 @Entity
-public class imovel {
+public class Imovel {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
@@ -54,7 +54,7 @@ public class imovel {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        imovel imovel = (imovel) o;
+        Imovel imovel = (Imovel) o;
         return Objects.equals(id, imovel.id);
     }
 
