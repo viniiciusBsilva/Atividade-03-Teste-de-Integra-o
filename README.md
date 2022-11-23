@@ -22,9 +22,10 @@ Atividade de número 03 para a disciplina de Engenharia de software II do curso 
 - Java
 - JPA / Hibernate
 - Maven
-- 
+- Spring JPA
+
 ## Implantação em produção
-- Banco de dados: Postgresql
+- Banco de dados: H2
 
 # Como executar o projeto
 
