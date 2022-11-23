@@ -23,6 +23,8 @@ Atividade de número 03 para a disciplina de Engenharia de software II do curso 
 - JPA / Hibernate
 - Maven
 - Spring JPA
+- Spring Boot
+- Lombok
 
 ## Implantação em produção
 - Banco de dados: H2
